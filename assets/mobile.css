@@ -1,0 +1,13 @@
+.quiz-conter,.shown-question,.all-Done,.Highscores{
+    width: 90%;
+
+}
+.all-Done{
+    flex-direction: column;
+}
+.all-done-div{
+    flex-direction: column;
+}
+main{
+    width: 80%;
+}

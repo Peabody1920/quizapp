@@ -1,0 +1,117 @@
+*{margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+overflow: hidden;
+}
+
+header{
+    background-color:#218380 ;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+main{
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.quiz-conter{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    border: 1px solid grey;
+    padding: 20px;
+    box-shadow: 7px 8px 10px grey; 
+}
+.btn{
+    width:fit-content;
+    font-size: smaller;
+    border-radius: 8px;
+    border-color: #21838000;
+    color: #fff;
+    height: 32px;
+    background-color: #218380;
+    margin-top: 8px;
+}
+.Start-para{
+    padding: 3px;
+    margin: 2px;
+    font-size: 15px;
+}
+.h1{
+    font-family: Verdana;
+    font-size: 24px;
+}
+
+.shown-question{
+    display: none;
+    width: 65%;
+    flex-direction: column;
+    border-radius: 14px;
+    border: 1px solid grey;
+    padding: 20px;
+    box-shadow: 7px 8px 10px grey; 
+}
+.option-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 12px;
+    margin: 2px;
+    list-style: none;
+}
+
+.li-selected{
+    background-color: #218380;
+    padding: 5px;
+    margin: 4px;
+    border-radius: 6px;
+}
+
+.options{
+    visibility: hidden;
+}
+.all-Done{
+    display: none;
+    width: 50%;
+    flex-direction: column;
+    border-radius: 14px;
+    border: 1px solid grey;
+    padding: 20px;
+    box-shadow: 7px 8px 10px grey; 
+}
+.btn-submit{
+    width:fit-content;
+    font-size: smaller;
+    border-radius: 8px;
+    color: #fff;
+    height: 32px;
+    background-color: #218380;
+    margin: 2px;
+}
+.Highscores{
+    display: none;
+    width: 30%;
+    flex-direction: column;
+    border-radius: 14px;
+    border: 1px solid grey;
+    padding: 20px;
+    box-shadow: 7px 8px 10px grey; 
+}
+
+.all-done-div{
+    display: flex;
+     padding: 2px;
+     align-items: 
+     baseline; 
+     margin:2px
+}
+

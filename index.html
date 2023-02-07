@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet"media="(max-width:768px)" href="./assets/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Quiz Game</title>
+</head>
+
+<body>
+    <header>
+        <a id=leaderboard>View Highscores <i class="fas fa-hand-point-left fa-lg"></i>
+        </i></a> 
+        <a id="time">Time:</a>
+
+    </header>
+    <main id = "main">
+        <div class="quiz-conter" id="start" >
+            <h2 class="h2">Coding Quiz Challenge</h2>
+            <p class="Start-para">Try to answer to following code-related question within the time limit. </p>
+            <p  class="Start-para">Keep in mind that incorrect answer will penalize your score/time by ten second!</p>
+            <button class="btn " id="btn">Start Quiz</button>
+        </div>
+
+        <div class="shown-question" id="question">
+            <h2 class="h2 question-title">Coding Quiz Challenge</h2>
+            <ul class="option-list">
+                <li class="li-selected">
+                    <input type="radio" id="ans1" name="ans1" value="option1" class="options">
+                    <label for="ans1" id ='option1' >option</label><br>
+                </li>
+                <li class="li-selected" >
+                    <input type="radio" id="ans2" name="ans2" value="option2"class="options">
+                    <label for="ans2" id ='option2'>option</label><br>
+                </li>
+                <li class="li-selected">
+                    <input type="radio" id="ans3" name="ans3" value="option3"class="options">
+                    <label for="ans3" id ='option3'>option</label><br>
+                </li>
+                <li class="li-selected"> 
+                    <input type="radio" id="ans4" name="ans4" value="option4"class="options">
+                    <label for="ans4" id ='option4'>option</label><br>
+                </li> 
+                    <h2 id="answerShown" ></h2>
+            
+            </ul>
+        </div>
+
+        <div class="all-Done" id="alldone">
+            <h2 class="h2">All-Done</h2>
+            <p>Your finsl score is:</p>
+            <div class="all-done-div" >
+                <label for="done" style="margin: 2px;">Enter initials:</label>
+                <input type="text" name="done" id="done">
+                <button class="btn" style=" margin-left: 4px;" id="submit"><a href="index.html" style="text-decoration: none; color: white;">Submit</a></button>
+            </div>
+        </div>
+        <div class="Highscores" id="highscores">
+            <div></div>
+            <h2 >Highscores</h2>
+            <ul style="list-style: auto; margin: 13px;" id="highscores-list">
+                
+            </ul>
+            <div>
+            <button class="btn"><a href="index.html" style="text-decoration: none; color: white;">Gone back</a></button>
+            <button class="btn" id ="clearhighscores">Clear Highscores</button>
+            </div>
+        </div>
+
+    </main>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
